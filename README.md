@@ -27,9 +27,9 @@ Cloud-native platform engineering portfolio project demonstrating Kubernetes, He
 
 ✅ Helm Charts
 
-⏳ ArgoCD
+✅ ArgoCD
 
-⏳ GitOps
+✅ GitOps
 
 ⏳ Prometheus
 
@@ -60,8 +60,11 @@ Cloud-native platform engineering portfolio project demonstrating Kubernetes, He
 
 ### Phase 4 - GitOps
 
-- [ ] ArgoCD
-- [ ] Automated Sync
+### Phase 4 - GitOps
+
+- [x] ArgoCD
+- [x] Automated Sync
+- [x] Self Healing
 
 ### Phase 5 - Observability
 
