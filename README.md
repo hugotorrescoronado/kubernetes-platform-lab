@@ -11,30 +11,31 @@ Cloud-native platform engineering portfolio project demonstrating Kubernetes, He
 
 ---
 
-## Status
-
-🚧 In Progress
-
----
-
 ## Features
 
+✅ Kubernetes Deployments
+
+✅ Services
+
+✅ Ingress
+
 ✅ ConfigMaps
+
 ✅ Kubernetes Secrets
+
 ✅ GitHub Secrets Integration
 
-## Planned Features
+✅ Helm Charts
 
-- ✅ Kubernetes Deployments
-- ✅ Services
-- ✅ Ingress
-- 🔄 Secrets
-- ⏳ Helm
-- ⏳ ArgoCD
-- ⏳ GitOps
-- ⏳ Prometheus
-- ⏳ Grafana
-- ⏳ GitHub Actions
+⏳ ArgoCD
+
+⏳ GitOps
+
+⏳ Prometheus
+
+⏳ Grafana
+
+⏳ GitHub Actions
 
 ---
 
@@ -55,7 +56,7 @@ Cloud-native platform engineering portfolio project demonstrating Kubernetes, He
 
 ### Phase 3 - Package Management
 
-- [ ] Helm Charts
+- [x] Helm Charts
 
 ### Phase 4 - GitOps
 
