@@ -1,0 +1,21 @@
+# Generated Secrets
+secret.yaml
+
+# Environment Files
+.env
+.env.*
+
+# Local Kubernetes
+.kube/
+
+# VSCode
+.vscode/
+
+# Workspace Files
+*.code-workspace
+
+# IDE
+.idea/
+
+# Logs
+*.log

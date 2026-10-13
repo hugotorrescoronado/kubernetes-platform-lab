@@ -17,12 +17,17 @@ Cloud-native platform engineering portfolio project demonstrating Kubernetes, He
 
 ---
 
+## Features
+
+✅ ConfigMaps
+✅ Kubernetes Secrets
+✅ GitHub Secrets Integration
+
 ## Planned Features
 
 - ✅ Kubernetes Deployments
 - ✅ Services
 - ✅ Ingress
-- 🔄 ConfigMaps
 - 🔄 Secrets
 - ⏳ Helm
 - ⏳ ArgoCD
@@ -44,8 +49,9 @@ Cloud-native platform engineering portfolio project demonstrating Kubernetes, He
 
 ### Phase 2 - Configuration Management
 
-- [ ] ConfigMaps
-- [ ] Secrets
+- [x] ConfigMaps
+- [x] Secret Templates
+- [x] GitHub Secrets Integration
 
 ### Phase 3 - Package Management
 
