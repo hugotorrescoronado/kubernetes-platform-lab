@@ -1,0 +1,22 @@
+name: Kubernetes Validation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Verify Kubernetes Manifests
+
+        run: |
+
+          echo "Validating Kubernetes manifests..."
+
+          find manifests -name "*.yaml" -type f

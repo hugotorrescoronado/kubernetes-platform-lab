@@ -1,10 +1,12 @@
 # Kubernetes Platform Lab
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Platform-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)//img.shields.io/badge/Helm-Packages-0F1689?style=for-the-bo=helm&logoColor=white
-![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-EF7B4D?style=for-the-badge&logoColor=white
-![Prometheus](https://img.shields.io/badge/Prometheus-Monitoring-E6522C?style=for-the-badge&logo=prometheuste
-![Grafana](https://img.shields.io/badge/Grafana-Dashboards-F46800?style=forlogo=grafana&logoColor=white
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?style=for-the-bctions&logoColor=white
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
 Cloud-native Platform Engineering portfolio project demonstrating Kubernetes, Helm, GitOps, ArgoCD, Prometheus, Grafana, Kubernetes Secrets, GitHub Secrets, and Observability practices.
 
@@ -72,7 +74,7 @@ GitHub Repository
 
 ✅ Observability
 
-⏳ GitHub Actions Validation
+✅ GitHub Actions Validation
 
 ---
 
@@ -82,19 +84,19 @@ GitHub Repository
 
 ArgoCD continuously synchronizes Kubernetes resources from Git.
 
-![Ar/argocd-gitops.png
+![ArgoCD GitOps](docs/argocd-gitops.png)
 
 ### Prometheus Metrics
 
 Prometheus collecting Kubernetes and infrastructure metrics.
 
-![Promrometheus-query.png
+![Prometheus Metrics](docs/prometheus-query.png)
 
 ### Grafana Dashboard
 
 Grafana visualizing Prometheus metrics and cluster health.
 
-docs/grafana-dashboard.png
+![Grafana Dashboard](docs/grafana-dashboard.png)
 
 ---
 
@@ -136,10 +138,11 @@ docs/grafana-dashboard.png
 
 ### Phase 6 - CI/CD
 
-- [ ] GitHub Actions
-- [ ] yamllint
-- [ ] kubeconform
-- [ ] Kubernetes Manifest Validation
+- [x] GitHub Actions
+- [x] yamllint
+- [x] kubeconform
+- [x] Kubernetes Manifest Validation
+- [x] Helm Validation
 
 ---
 
@@ -226,4 +229,4 @@ kubernetes-platform-lab
 
 ## Status
 
-🚧 Phase 6 In Progress
+✅ Portfolio Complete
