@@ -1,0 +1,42 @@
+name: Generate Grafana Values
+
+on:
+
+  workflow_dispatch:
+
+jobs:
+
+  generate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+
+        uses: actions/checkout@v4
+
+      - name: Install envsubst
+
+        run: |
+
+          sudo apt-get update
+          sudo apt-get install -y gettext-base
+
+      - name: Generate Grafana Values
+
+        env:
+
+          GRAFANA_ADMIN_PASSWORD: ${{ secrets.GRAFANA_ADMIN_PASSWORD }}
+
+        run: |
+
+          envsubst \
+          < monitoring/grafana-values-template.yaml \
+          > grafana-values.yaml
+
+      - name: Verify File
+
+        run: |
+
+          ls -la grafana-values.yaml

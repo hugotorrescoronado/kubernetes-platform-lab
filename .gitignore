@@ -1,5 +1,6 @@
 # Generated Secrets
 secret.yaml
+grafana-values.yaml
 
 # Environment Files
 .env
@@ -19,3 +20,5 @@ secret.yaml
 
 # Logs
 *.log
+
+
