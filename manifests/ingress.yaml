@@ -10,6 +10,7 @@ spec:
     - host: nginx.local
 
       http:
+
         paths:
           - path: /
 
