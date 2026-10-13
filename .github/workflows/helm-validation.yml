@@ -1,0 +1,31 @@
+name: Helm Validation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+
+  helm:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Setup Helm
+
+        uses: azure/setup-helm@v4
+
+      - name: Lint Helm Chart
+
+        run: |
+
+          helm lint helm/nginx-chart
+
+      - name: Render Templates
+
+        run: |
+
+          helm template nginx helm/nginx-chart
