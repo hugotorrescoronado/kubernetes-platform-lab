@@ -1,0 +1,17 @@
+server:
+
+  persistentVolume:
+
+    enabled: false
+
+alertmanager:
+
+  enabled: true
+
+kubeStateMetrics:
+
+  enabled: true
+
+nodeExporter:
+
+  enabled: true

@@ -1,0 +1,11 @@
+adminUser: admin
+
+adminPassword: ${GRAFANA_ADMIN_PASSWORD}
+
+service:
+
+  type: ClusterIP
+
+persistence:
+
+  enabled: false
